@@ -1,0 +1,282 @@
+body {
+    color: white;
+}
+
+h2 {
+    color: #002254;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #002254;
+    
+}
+
+.text h2 {
+    
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+h4 {
+    color: #002254;
+}
+
+p {
+    color: #002254;
+}
+
+.table thead tr th {
+    text-align: center;
+    color: white;
+}
+
+.table thead {
+    background-color: #002254;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #e22727;
+}
+
+table {
+    text-align: center;
+    margin-top: 30px;
+}
+
+table td {
+    color: black;
+}
+
+.panelheading {
+    background-color: red
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: #002254;
+    text-decoration: none;
+}
+
+
+/* selected link */
+
+a:active {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+header {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    clear: both;
+    background-image: url("../media/usa_flag.jpeg");
+}
+
+header img {
+    width: 40%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#header_rrss {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.header_rrss_right {
+    text-align: right;
+}
+
+#middle {
+    height: 50px;
+    background-image: url("../media/usa_flag.jpeg");
+}
+
+nav {
+    z-index: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+#logo-prova img {
+    width: 200px;
+}
+
+.prova {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel-heading {
+    color: white;
+}
+
+.panel-body {
+    background-color: #002254;
+    padding: 50px;
+    text-align: justify;
+    opacity: 0.8;
+}
+
+.panel-body p {
+    color: white;
+}
+
+.panel-group {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+section h3 {
+    text-align: center;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    background-color: lightblue;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#check_dem_pair,
+#check_rep_pair,
+#check_ind_pair,
+#checkapi_pair_one,
+#checkapi_pair_two {
+    margin-left: 10px;
+}
+
+.checkboxes h4 {
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.checkstate, .checkapi {
+    background-color: lightblue;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+}
+
+
+.checkboxes, .checkstate, .checkapi {
+    
+    margin-bottom: 20px;
+}
+
+
+.checkstate_pair, .checkapi_pair {
+    padding: 8px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.checkstate_pair h4 {
+    padding-right: 10px;
+}
+
+select {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    height: 100px;
+    background-image: url("../media/usa_flag.jpeg");
+}
+
+footer p {
+    float: right;
+    margin-top: 70px;
+    margin-right: 15px;
+    color: black;
+}
+
+.flex_main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bloc {
+    width: 500px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(255, 255, 255, 0.90);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    max-height: 600px;
+    overflow: scroll;
+}
+
+.attendance {
+    background-image: url("../media/us-senate.jpg");
+    padding-top: 50px;
+}
+
+.container-fluid {
+    pointer-events: all;
+}
+
+.text p {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
